@@ -9,11 +9,16 @@ python-dotenv: Permite cargar variables de entorno desde un archivo .env, útil 
 Puedes instalar ambas dependencias ejecutando el siguiente comando en la terminal:
 
 pip install requeriments.txt
+tambien recordar que es recomendable instalar e iniciar un entorno virtual, el mismo se puede realizar con los siguientes comandos:
+python -m venv venv (para crear el entorno)
+.\venv\Scripts\activate (para activarlo)
 
 Ejecución del Programa
 Asegúrate de tener Python instalado en tu sistema.
 Instala las dependencias como se indicó anteriormente.
 Crea un archivo .env en la raíz del proyecto y agrega tus claves necesarias (por ejemplo, la API Key de Google Generative AI).
+GEMINI_API_KEY=AIzaSyD************tu_clave
+MODEL=gemini-2.5-flash
 Ejecuta el programa principal (por ejemplo, main.py) con el siguiente comando:
 
 python main.py
