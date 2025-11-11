@@ -6,4 +6,3 @@ class ChatRequest(BaseModel):
     reset: bool = False
 class ChatResponse(BaseModel):
     response: str
-
